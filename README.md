@@ -8,6 +8,7 @@ The project follows an organized directory structure as follows:
 
 - **assets/**: Contains static files such as CSS, images, and JavaScript.
   - **css/**: Stores CSS styles used in the project.
+    - **styles.css**: Contains CSS styles used in the project.
 
 - **index.html/**: Homepage displaying information about Barcelona and recommended products.
 
