@@ -1,11 +1,9 @@
-const recommendedProductsSection = document.getElementById("recommended_products");
 const title = document.getElementById("geo_name");
-const container = document.createElement("container");
+const container = document.getElementById("container");
 
 let geoContent = "";
 let starsCreated = "";
 let productCardInfo = "";
-let geo_id = "";
 let geo_image = "";
 let geo_link = "";
 let product_code = "";
@@ -46,7 +44,37 @@ fetch('/data/data.json')
   .then(data => {
     title.innerHTML = data.geo_name
 
-    // Inserting the product cards into the html document
+    // Inserting all the necessary html for the geo section
+    geoContent +=`
+        <header>
+            <h1 class="title">viator.</h1>
+        </header>
+        <main id="${data.geo_id}">
+            <section id="info-section">
+                <h2 class="subtitle"><b>Explore the unexpected in ${data.geo_name}</b></h2>
+                <img id="hero-image" src="${data.geo_image}" alt="${data.geo_name}-image">
+
+                <p class="content">
+                    Every destination has its must-sees, but we're here to help you see a
+                    side of ${data.geo_name} most travelers miss. Venture off the beaten path and escape the crowds
+                    with our hand-picked list of experiences that reveal its true character.
+                </p>
+                <form id="discover-container">
+                    <button id="discover-btn" formaction="${data.geo_link}">Discover hidden gems</button>
+                </form>
+            </section>
+
+            <section id="recommended_products">
+                <h2>Top picks based on your bookings</h2>
+                <!-- Here goes the inserted product cards -->
+            </section>
+        </main>
+        `
+    container.innerHTML = geoContent
+
+    const recommendedProductsSection = document.getElementById("recommended_products");
+
+    // Inserting the product cards into the html document generated above
     data.recommended_products.forEach(element => {
         let ratingInfo = ratingApproximation(element.product_rating);
         createStars(ratingInfo);
