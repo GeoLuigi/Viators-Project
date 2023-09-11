@@ -4,14 +4,6 @@ const container = document.getElementById("container");
 let geoContent = "";
 let starsCreated = "";
 let productCardInfo = "";
-let geo_image = "";
-let geo_link = "";
-let product_code = "";
-let product_name = "";
-let product_rating = 0;
-let product_photo_url = "";
-let product_link = "";
-let product_review_count = "";
 
 function ratingApproximation(rating) {
     const decimal = rating - Math.floor(rating);

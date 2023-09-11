@@ -2,7 +2,7 @@
 
 
 
-This is the repository for the "Viator's Project," a simple webpage that displays information about Barcelona and recommended tourist products. The project uses HTML and CSS to create an interactive user experience.
+This is the repository for the "Viator's Project," a simple webpage that displays information about Barcelona and recommended tourist products. The project uses HTML, CSS and JavaScript to create an interactive user experience.
 
 
 
