@@ -106,13 +106,31 @@ h2 {
     margin-right: 0;
     margin-left: 0;
 }
-
-.star-partial::before {
+/* check it */
+.star-three-quarters::before {
     content: "\2605";
     position: absolute;
     display: inline-block;
     overflow: hidden;
-    width: 7.5px;
+    width: 9.95px;
+    margin: 0;
+}
+
+.star-half::before {
+    content: "\2605";
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    width: 7.3px;
+    margin: 0;
+}
+
+.star-quarter::before {
+    content: "\2605";
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    width: 6.75px;
     margin: 0;
 }
 

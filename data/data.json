@@ -1,0 +1,33 @@
+{
+  "geo_id": "562",
+  "geo_name": "Barcelona",
+  "geo_image": "https://cdn.tripadvisor.com/img2/email/vr/aps5-2_barcelona.jpg",
+  "geo_link": "https://www.viator.com/collections/Hidden-Gems-in-Barcelona/c7",
+  "recommended_products":
+  [
+    {
+      "product_code": "2140BCNHOP",
+      "product_name": "Barcelona City Tour Hop-On Hop-Off",
+      "product_rating": "4.5",
+      "product_photo_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/1e/c1/f3.jpg",
+      "product_link": "https://www.viator.com/tours/x/x/d0-2140BCNHOP",
+      "product_review_count": "1864"
+    },
+    {
+      "product_code": "2916BARCELONA",
+      "product_name": "City Sightseeing Barcelona Hop-On Hop-Off Bus Tour",
+      "product_rating": "4.0",
+      "product_photo_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/7f/a3.jpg",
+      "product_link": "https://www.viator.com/tours/x/x/d0-2916BARCELONA",
+      "product_review_count": "2648"
+    },
+    {
+      "product_code": "5716P2",
+      "product_name": "Montserrat Tour from Barcelona Including Lunch and Gourmet Wine Tasting",
+      "product_rating": "5.0",
+      "product_photo_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/71/9c/84.jpg",
+      "product_link": "https://www.viator.com/tours/x/x/d0-5716P2",
+      "product_review_count": "1502"
+    }
+  ]
+}
