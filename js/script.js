@@ -13,7 +13,6 @@ function ratingApproximation(rating) {
     } else if (decimal > 0 && decimal <= 0.25) {
         return {'integer': Math.floor(rating), "approximate": "star-quarter"};
     } else if (decimal > 0.25 && decimal <= 0.5) {
-        approximate = "star-half";
         return {'integer': Math.floor(rating), "approximate": "star-half"};
     } else {
         return {'integer': Math.floor(rating), "approximate": "star-three-quarters"};
