@@ -90,5 +90,5 @@ fetch('/data/data.json')
 
   })
   .catch(error => {
-    console.error('Error al cargar el JSON:', error);
+    console.error('Error loading JSON:', error);
   });
