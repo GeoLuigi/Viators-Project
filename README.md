@@ -1,70 +1,45 @@
-# Viator's Project
+# HTML Project Template
 
+## Overview
 
-
-This is the repository for the "Viator's Project," a simple webpage that displays information about Barcelona and recommended tourist products. The project uses HTML, CSS and JavaScript to create an interactive user experience.
-
-
-
-## Directory Structure
-
-
-
-The project follows an organized directory structure as follows:
-
-
-
--  **assets/**: Contains static files such as CSS and images.
-
-	-  **css/**: Stores CSS styles used in the project.
-		-  **styles.css**: Contains CSS styles used in the project.
-
-
-
--  **js/**: Stores JavaScript files for interactivity.
-	-  **script.js**: JavaScript file for adding interactivity (new).
-
--  **data/**: Stores data files.
-	-  **data.json**: JSON data file (new).
-
--  **index.html/**: Homepage displaying information about Barcelona and recommended products.
-
-
-
--  **README.md**: This file provides information about the project.
-
-
+This project is a single HTML file, `index.html`, that serves as a web page template. It is designed to display information about a tourist destination, including details and recommended products. This template is highly customizable and can be reused by simply updating the JSON data within the HTML file.
 
 ## Usage
 
+1. Clone or download this repository to your local machine.
 
+2. Open the `index.html` file in a web browser to view the web page.
 
-You can clone this repository to get a copy of the project in your local development environment. Then, customize the content, styles, and functionality according to your needs.
+## Template Structure
 
+- `index.html`: The main HTML file containing the webpage's structure and content.
 
+## External Resources
+
+- [Google Fonts](https://fonts.google.com/): This template imports the "DM Serif Display" font from Google Fonts.
+
+## Customization
+
+To reuse this template for different destinations or products, follow these steps:
+
+1. Open the `index.html` file in a text editor.
+
+2. Locate the `<script>` tag with the id `jsonData`. Inside this tag, you'll find the JSON data. Replace this data with your desired content while maintaining the same structure.
+
+3. Save the `index.html` file.
+
+4. Customize the HTML and CSS styles as needed to match your specific content and design preferences.
+
+5. Open the modified `index.html` file in a web browser to see your customized webpage.
 
 ## Contributions
 
-
-
-Contributions are welcome. If you want to collaborate on this project, you can fork the repository and then create a pull request with your improvements or proposed changes.
-
-
+Contributions, including improvements and bug fixes, are welcome through pull requests (PRs).
 
 ## License
 
-
-
 This project is licensed under the MIT License.
 
+---
 
-
-## Contact
-
-
-
-If you have any questions or comments about the project, feel free to reach out to via email to lhgjorge@gmail.com or [GitHub](https://github.com/geoluigi).
-
-
-
-```
+**Note:** This template can be easily reused by replacing the JSON data within the HTML, allowing you to create web pages for various destinations or products.
